@@ -1,0 +1,30 @@
+﻿{
+  "name": "SongCloud",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Envie vídeos para o SongCloud",
+  
+  "icons": {
+     "16": "icons/cloud-16.png",
+	 "32": "icons/cloud-32.png",
+	 "64": "icons/cloud-64.png",
+	"128": "icons/cloud-128.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": [
+	    "http://www.youtube.com/watch?*",
+	    "https://www.youtube.com/watch?*"
+	  ],
+	
+  	  "js": [
+	    "includes/songcloud.js"
+	  ]
+	}
+  ],
+  "permissions": [
+    "tabs",
+    "http://emotizoo.siteprofissional.com/"
+  ]
+}

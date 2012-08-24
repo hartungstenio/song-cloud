@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        id="http://dirtycode.net/opera/readability"
+		version="0.1">
+	<name>SongCloud</name>
+	<description>Envie vídeos para o SongCloud</description>
+	<author href="http://br.linkedin.com/in/chrishartung" email="hartung+dev@live.com">Christian Hartung</author>
+	
+	<icon width="16" height="16" src="icons/cloud-16.png"/>
+	<icon width="32" height="32" src="icons/cloud-32.png"/>
+	<icon width="64" height="64" src="icons/cloud-64.png"/>
+	<icon width="128" height="128" src="icons/cloud-128.png"/>
+	
+	<access origin="http://emotizoo.siteprofissional.com" subdomains="false"/>
+</widget>
